@@ -8,3 +8,4 @@ export class Alumno {
     direccion!: Direccion;
     contacto!: Contacto;
   }
+  /*Prueba de integración con Jenkins desde el alumno type*/
