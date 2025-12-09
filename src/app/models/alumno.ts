@@ -9,3 +9,5 @@ export class Alumno {
     contacto!: Contacto;
   }
   /*Prueba de integración con Jenkins desde el alumno type*/
+
+  /*Segunda prueba de integración con Jenkins desde el alumno type*/
