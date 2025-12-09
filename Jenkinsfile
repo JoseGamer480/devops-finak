@@ -12,20 +12,20 @@ pipeline {
             }
         }
 
-        stage('Construir Imagen Docker') {
+         stage('Construir Imagen Docker') {
             steps {
                 script {
-                    // Construir la imagen Docker con el Dockerfile presente en el repositorio
-                    sh 'docker build -t ${DOCKER_IMAGE} .'
+                    // Usar un agente Docker para la construcción de la imagen
+                    docker.build("my-docker-image", ".") // Construir la imagen Docker con el Dockerfile presente en el repositorio
                 }
             }
         }
 
-        stage('Ejecutar contenedor Docker') {
+        stage('Ejecutar Contenedor Docker') {
             steps {
                 script {
-                    // Ejecutar la imagen Docker construida en un contenedor
-                    sh 'docker run -d -p 8087:8080 ${DOCKER_IMAGE}'
+                    // Usar un contenedor para ejecutar la imagen
+                    docker.image("my-docker-image").run("-d -p 8087:8080")
                 }
             }
         }
