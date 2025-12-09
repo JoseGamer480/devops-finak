@@ -1,0 +1,21 @@
+.matricula-boleta {
+    max-width: 600px; /* Ancho máximo del formulario */
+    margin-top: 0%; /* Centrando el formulario */
+  }
+  
+  .form-group {
+    margin-bottom: 20px; /* Espacio entre cada grupo de elementos */
+  }
+  
+  label {
+    display: block; /* Haciendo que las etiquetas se comporten como bloques */
+    font-weight: bold; /* Texto en negrita */
+    margin-bottom: 8px; /* Espacio debajo de las etiquetas */
+  }
+  
+  input {
+    width: 100%; /* Ancho completo del input */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Bordes del input */
+    border-radius: 4px; /* Bordes redondeados */
+  }
