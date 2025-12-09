@@ -25,7 +25,7 @@ pipeline {
             steps {
                 script {
                     // Ejecutar la imagen Docker construida en un contenedor
-                    sh 'docker run -d -p 8087:8087 ${DOCKER_IMAGE}'
+                    sh 'docker run -d -p 8087:8080 ${DOCKER_IMAGE}'
                 }
             }
         }
