@@ -2,7 +2,7 @@ pipeline {
     agent any  // Esto indica que puede ejecutarse en cualquier agente disponible.
 
     environment {
-        DOCKER_IMAGE = 'jenkins/jenkins:latest'
+        DOCKER_IMAGE = 'jenkins/jenkins:lts'
     }
 
     stages {
