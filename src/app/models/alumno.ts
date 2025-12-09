@@ -11,3 +11,5 @@ export class Alumno {
   /*Prueba de integración con Jenkins desde el alumno type*/
 
   /*Segunda prueba de integración con Jenkins desde el alumno type*/
+
+  /*Tercera prueba de integración con Jenkins desde el alumno type*/
