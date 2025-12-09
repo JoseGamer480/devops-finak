@@ -6,3 +6,5 @@ export class Apoderado {
 }
 
 /*Prueba de integración con Jenkins desde el apoderado type*/
+
+/*Segunda prueba de integración con Jenkins desde el apoderado type*/
